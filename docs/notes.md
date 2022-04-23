@@ -1,5 +1,4 @@
-# 2022-04-21
-## Address unit, char and cell sizes
+# 2022-04-21 - Address unit, char and cell sizes
 The Standard imposes the following restrictions on data sizes:
 
 * address unit <= char <= cell (3.1.2)
@@ -22,3 +21,14 @@ Data space areas restrictions:
 
 Section 4.1.1 lists every(?) implementation-defined option a system shall document the values for.
 This includes the above size options.
+
+C#'s char is 16b wide, so I think it'd be better if I made everything 16b wide too:
+
+address unit = char = cell = 16b
+
+# 2022-04-22 - Starting subset of words
+
+I spent the day reading the CORE word set trying to find a good subset to implement first, 
+to have something working before tackling the harder words.
+I found 48 words that deal only with the data-stack, no control flow, allocation or compilation shenanigans. 
+They're listed in Issue #1 on Github.
