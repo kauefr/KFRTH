@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFRTH.CLI", "KFRTH.CLI\KFRTH.CLI.csproj", "{390781A4-6BB6-4074-94EC-DAA7DDBEAD39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFRTH.Interpreter", "KFRTH.Interpreter\KFRTH.Interpreter.csproj", "{99EC0A7F-816D-48D1-9503-2CE86513455B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFRTH.Test.Interpreter", "KFRTH.Test.Interpreter\KFRTH.Test.Interpreter.csproj", "{B8B6DF15-85AC-4757-9C13-B9A8EA63E6D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{390781A4-6BB6-4074-94EC-DAA7DDBEAD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{390781A4-6BB6-4074-94EC-DAA7DDBEAD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{390781A4-6BB6-4074-94EC-DAA7DDBEAD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EC0A7F-816D-48D1-9503-2CE86513455B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EC0A7F-816D-48D1-9503-2CE86513455B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EC0A7F-816D-48D1-9503-2CE86513455B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EC0A7F-816D-48D1-9503-2CE86513455B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B6DF15-85AC-4757-9C13-B9A8EA63E6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B6DF15-85AC-4757-9C13-B9A8EA63E6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B6DF15-85AC-4757-9C13-B9A8EA63E6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B6DF15-85AC-4757-9C13-B9A8EA63E6D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
