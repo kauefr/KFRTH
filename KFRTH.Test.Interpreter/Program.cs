@@ -1,8 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-using KFRTH.Interpreter;
-Console.WriteLine("Hello, World!");
+﻿using KFRTH.Interpreter;
 
-CoreWordset core = new Runtime();
+namespace KFRTH.Test.Interpreter;
 
-core.BL();
-Console.WriteLine(((Runtime)core).dataStack.Peek());
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+
+        Runtime r = new(new ConsoleIOProvider());
+        r.executeWord("3");
+        r.executeWord("5");
+        r.executeWord("dump");
+        r.executeWord("+");
+        r.executeWord("dump");
+    }
+}

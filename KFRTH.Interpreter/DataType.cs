@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace KFRTH.Interpreter;
 
-public enum CoreWordset
+internal enum DataType
 {
-    Star,
-    StarSlash,
-    StarSlashMod,
-    Plus,
-    Minus,
-    BL
+    Flag,
+    Char,
+    N,
+    PlusN,
+    U,
+    X,
+    XT,
+    Addr,
+    AAddr,
+    CAddr,
+    D,
+    PlusD,
+    UD,
+    XD,
 }
